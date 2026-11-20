@@ -4,7 +4,8 @@ from rag_engine import load_base, ask_rag
 
 st.set_page_config(page_title="SIET_Chatbot", layout="centered")
 st.title("Shridevi Institute of Engineering and Technology - ChatBot")
-st.caption("Ask anything about college information....")
+st.caption("Ask anything about college information, Cources, Placements, Rules & Regulations, And FAQ's....")
+st.caption("RAG Pipeline with Multiple files")
 st.caption("Created by Gnanesh N")
 
 mykey = st.secrets["GROQ_API_KEY"]
