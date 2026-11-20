@@ -13,7 +13,7 @@ mykey = st.secrets["GROQ_API_KEY"]
 # Initialize RAG engine
 @st.cache_resource
 def initiate_rag():
-    return load_base("01_College_Information.pdf")
+    return load_base("college_docs")
 
 
 # Load index, embedding model and chunks
